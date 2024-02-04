@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 
 import roop.globals
 import roop.metadata
-from roop.face_analyser import get_one_face
+from roop.fanely import get_one_face
 from roop.capturer import get_video_frame, get_video_frame_total
 from roop.face_reference import get_face_reference, set_face_reference, clear_face_reference
 from roop.predictor import predict_frame, clear_predictor
